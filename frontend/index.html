@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AquaBill — Smart Water Consumption Monitoring & Billing System</title>
+  <meta name="description" content="Commercial-grade water utility monitoring, automated tariff billing, meter management, and customer billing portal." />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <script src="/vendor/chart.umd.min.js" defer></script>
+  <script src="/vendor/lucide.min.js" defer></script>
+  <script src="/js/api.js" defer></script>
+  <script src="/js/state.js" defer></script>
+  <script src="/js/charts.js" defer></script>
+  <script src="/js/invoice.js" defer></script>
+  <script src="/js/public.js" defer></script>
+  <script src="/js/admin.js" defer></script>
+  <script src="/js/customer.js" defer></script>
+  <script src="/js/app.js" defer></script>
+</head>
+<body>
+  <div id="app-root">
+    <div class="boot-loader">
+      <div class="spinner"></div>
+      <p>Connecting to AquaBill C Utility Engine...</p>
+    </div>
+  </div>
+
+  <!-- Reusable Modal Overlay -->
+  <div id="modal-root" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card" id="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title">Modal</h3>
+        <button type="button" class="icon-btn" id="modal-close-btn" aria-label="Close modal">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Printable / Downloadable Invoice Container -->
+  <div id="print-invoice-root" class="print-only"></div>
+
+  <!-- Toast Notification Stack -->
+  <div id="toast-root" class="toast-stack" aria-live="polite"></div>
+</body>
+</html>

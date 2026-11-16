@@ -1,0 +1,6 @@
+{
+  "name": "AQUA - Smart Water Management & Billing Simulator",
+  "description": "Smart water meter monitoring, progressive slab billing calculation, consumption analytics, leakage alerts, and complete C project suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

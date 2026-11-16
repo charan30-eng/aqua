@@ -1,0 +1,5 @@
+CON101|Ravindra Sharma|Plot 42, Green Meadows Sector 4|9876543210|2024-01-10
+CON102|Priya Patel|Villa 18, Lakeview Residency|9823456789|2024-02-14
+CON103|Anita Deshmukh|Flat 304, Palm Springs Enclave|9811223344|2024-03-01
+CON104|Ramesh Kumar|House 7, Riverbank Colony|9845123456|2024-03-20
+CON105|Karthik Reddy|B-12, Cyber Valley Apartments|9871122445|2024-04-12
